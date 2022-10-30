@@ -1,0 +1,32 @@
+export const fakeVouchers = [
+	{
+		name: "Mai Đức",
+		code: "MAIDUC",
+		description: "lorem ipsum lorem ipsum lorem ipsum",
+		discount_amount: 2,
+		min_order_value: 10,
+		total_remaining: 2,
+		create_time: new Date(),
+		expired_time: new Date(),
+	},
+	{
+		name: "Real",
+		code: "MADRID",
+		description: "lorem ipsum lorem ipsum lorem ipsum",
+		discount_amount: 2,
+		min_order_value: 10,
+		total_remaining: 2,
+		create_time: new Date(),
+		expired_time: new Date(),
+	},
+	{
+		name: "Eric Ten Haag",
+		code: "TENKHO",
+		description: "lorem ipsum lorem ipsum lorem ipsum",
+		discount_amount: 2,
+		min_order_value: 10,
+		total_remaining: 2,
+		create_time: new Date(),
+		expired_time: new Date(),
+	},
+];

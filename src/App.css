@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  height: 1px;
+  background-color: #dfdfdf;
+  border: none;
+}
+
+.loading-wrapper {
+  position: absolute;
+  width: 100%;
+  z-index: 10000;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+}
+
+a {
+  color: inherit !important;
+}
+
+.pag-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center;
+}
+
+.pag-list a {
+  text-decoration: none;
+  color: #646464;
+}
+
+.pag-list .pag-item {
+  border-radius: 5px;
+  list-style: none;
+  margin: 0 3px;
+}
+
+.pag-list .pag-item .pag-item-link {
+  display: block;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.pag-list .pag-item:hover {
+  background: rgba(228, 228, 228, 0.6);
+}
+
+.pag-list .pag-item:hover a {
+  color: #000;
+}
+
+.pag-list .pag-next,
+.pag-list .pag-prev {
+  border-radius: 5px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.pag-list .pag-next:hover,
+.pag-list .pag-prev:hover {
+  background: rgba(228, 228, 228, 0.6);
+}
+
+.pag-list .pag-next:hover a,
+.pag-list .pag-prev:hover a {
+  color: #000;
+}
+
+.pag-list .pag-next .pag-next-link,
+.pag-list .pag-next .pag-prev-link,
+.pag-list .pag-prev .pag-next-link,
+.pag-list .pag-prev .pag-prev-link {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.pag-list .pag-next-link::after {
+  content: "\203A";
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.pag-list .pag-prev-link::before {
+  content: "\2039";
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.pag-list .pag-disable a {
+  color: #999 !important;
+}
+
+.pag-list .pag-active {
+  background: rgba(228, 228, 228, 0.6);
+}
+
+.pag-list .pag-active a {
+  color: #000;
+}
+/*# sourceMappingURL=app.css.map */
